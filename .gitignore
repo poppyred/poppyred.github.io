@@ -1,7 +1,5 @@
 # Created by .ignore support plugin (hsz.mobi)
-将删除 .gitignore
-将删除 .idea/a5216652166.github.io.iml
-将删除 .idea/markdown-navigator.xml
-将删除 .idea/markdown-navigator/
-将删除 .idea/modules.xml
-将删除 .idea/workspace.xml
+.gitignore
+.idea/
+
+
