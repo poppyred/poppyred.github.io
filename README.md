@@ -31,6 +31,30 @@ func hammingDistance(x int, y int) int {
     }
     return sum
 }
+```
 
+#### c++:
+```c++
+class Solution {
+public:
+    int hammingDistance(int x, int y) {
+        int dist = 0, n = x ^ y;
+        while (n) {
+            ++dist;
+            n &= n - 1;
+        }
+        return dist;
+    }
+};
+```
 
+### java:
+```java
+public int hammingDistance(int x, int y) {
+    int xor = x ^ y, count = 0;
+    for (int i=0;i<32;i++) {
+    count += (xor >> i) & 1;
+    }
+    return count;
+}
 ```
