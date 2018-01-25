@@ -7,7 +7,6 @@
 #### python:
 
 ```python
-
 class Solution(object):
     def hammingDistance(self, x, y):
         """
@@ -16,5 +15,21 @@ class Solution(object):
         :rtype: int
         """
         return bin(x^y).count('1')
+```
+
+#### golang:
+```golang
+
+func hammingDistance(x int, y int) int {
+    b2 := x^y
+    b3 := fmt.Sprintf("%b",b2)
+    sum :=0
+    for i:=0;i<len(b3);i++{
+        if(string(b3[i])=="1"){
+           sum++
+        }
+    }
+    return sum
+}
 
 ```
