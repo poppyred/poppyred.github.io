@@ -58,3 +58,10 @@ public int hammingDistance(int x, int y) {
     return count;
 }
 ```
+
+### javascript:
+```javascript
+var hammingDistance = function(x, y) {
+        return (x ^ y).toString(2).replace(/0/g, '').length;
+};
+```
