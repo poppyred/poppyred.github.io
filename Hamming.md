@@ -9,11 +9,6 @@
 ```python
 class Solution(object):
     def hammingDistance(self, x, y):
-        """
-        :type x: int
-        :type y: int
-        :rtype: int
-        """
         return bin(x^y).count('1')
 ```
 
@@ -58,6 +53,14 @@ public int hammingDistance(int x, int y) {
     return count;
 }
 ```
+
+### scala:
+```scala
+def hammingDistance(x: Int, y: Int): Int = {
+    Integer.bitCount(x ^ y)
+  }
+```
+
 
 ### javascript:
 ```javascript
