@@ -104,6 +104,13 @@ class Solution {
 ```
 
 # 目录:
+
+---
+
+[首页](./README.md)
+
+---
+
 [461. Hamming Distance ](./Hamming.md)
 
 ---
