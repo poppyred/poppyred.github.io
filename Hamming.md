@@ -68,3 +68,12 @@ var hammingDistance = function(x, y) {
         return (x ^ y).toString(2).replace(/0/g, '').length;
 };
 ```
+
+# 目录:
+[461. Hamming Distance ](./Hamming.md)
+
+---
+
+[657. Judge Route Circle ](./JudgeRouteCircle.md)
+
+---
