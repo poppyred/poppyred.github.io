@@ -84,3 +84,8 @@ var hammingDistance = function(x, y) {
 [657. Judge Route Circle ](./JudgeRouteCircle.md)
 
 ---
+
+
+[666. Violence enumeration ](./ViolenceEnumeration.md)
+
+---

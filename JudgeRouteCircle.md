@@ -118,3 +118,8 @@ class Solution {
 [657. Judge Route Circle ](./JudgeRouteCircle.md)
 
 ---
+
+
+[666. Violence enumeration ](./ViolenceEnumeration.md)
+
+---
